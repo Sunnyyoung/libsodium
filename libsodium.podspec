@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = "3.0"
   spec.tvos.deployment_target = "9.0"
 
-	spec.vendored_frameworks = "libsodium.xcframework"
+  spec.vendored_frameworks = "libsodium.xcframework"
 end
